@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  background-image: url('./assets/W36.jpg');
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  width: 30rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  margin-top:  10rem;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #343434 0%, #221f1f 50%, #1B1B1B 100%);
+  border-radius: 2.5rem 0.5rem 2.5rem 0.5rem;
+  padding: 0.1rem 0.1rem;
+}
+
+h1{
+  margin: 0;
+  padding: 1rem 1rem;
+  font-size: 2.5rem;
+  background: linear-gradient(#7AC14E, #87f742);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3{
+  color:antiquewhite;
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+}
+
+#lista{
+  padding: 1rem 1rem;
+  margin: 1.0rem;
+}
+
+input[type=text]{
+  height: 1.3rem;
+}
+
+.but{
+  margin-left: 0.5rem;
+  display: inline-block;
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.2rem;
+}
+
+#texto{
+  float: left;
+  text-align: center;
+  font-size: 1.05rem;
+  color:antiquewhite
+  
+}
+
+#but1{
+  float: right;
+}
+ 
+#check{
+  float: left;
+  margin-right: 0.3rem;
+}
